@@ -14,7 +14,7 @@ $(document).ready(function () {
         for (let col = 0; col < cols; col++) {
 
             let tile = document.createElement("img");
-            tile.src = "./../../bootstrap/images/national_day_puzzel/blank.jpg"
+            tile.src = "./../../../puzzle-game/bootstrap/images/national_day_puzzel/blank.jpg"
 
             // DRAG FUNCTIONALITY
             tile.addEventListener('dragstart', dragStart);
@@ -48,7 +48,7 @@ $(document).ready(function () {
     for (i = 0; i < pieces.length; i++) {
 
         let tile = document.createElement("img");
-        tile.src = "./../../bootstrap/images/national_day_puzzel/" + pieces[i] + ".jpg";
+        tile.src = "./../../../puzzle-game/bootstrap/images/national_day_puzzel/" + pieces[i] + ".jpg";
 
         // DRAG FUNCTIONALITY
         tile.addEventListener('dragstart', dragStart);
